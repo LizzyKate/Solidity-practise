@@ -9,6 +9,44 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arrayOne",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "checkIfNumberExists",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_number",
 						"type": "uint256"
 					}
@@ -33,6 +71,19 @@
 					}
 				],
 				"name": "numbersList",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numbersThatAreEven",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -72,11 +123,11 @@
 	},
 	"sources": {
 		"contracts/loop.sol": {
-			"keccak256": "0x17e35465b300eb89618152ede251d1e4043bf58e8a77a0ce376fb925ba17ef95",
+			"keccak256": "0x5a3db7b680d8ef9ea4ead7fac064e802a6999a83f2e87faacb5c4ebdc95031f6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5efcef80b330a0df32159ca317f5baeee1aee49a0d4c74e466e2d32beb09f4e",
-				"dweb:/ipfs/QmPpm6s8CRnm1WRzFz1s7xVEwDzGXiJPd2gRrdhruExvyn"
+				"bzz-raw://3828b9e4c2289a558b710f371d202d988a6fbdf900cb988ce1128f0a45c867ae",
+				"dweb:/ipfs/QmdtUqT4njQn1iLGcjnJJKwch4t2FEMu5uEGTasUp7usLS"
 			]
 		}
 	},
